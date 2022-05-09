@@ -11,9 +11,8 @@ var _app = function () {
     this.brandDescription = [
         "Astella#0069 ", 
         "discord.gg/YP7CSD7YGY ",
-        "@ MOTD: song changes everyday!",
+        "song changes everyday!",
         "♪ jahhlu - disco  ",
-        "$ astella " ,
     ];
 
 
