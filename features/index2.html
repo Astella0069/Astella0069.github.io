@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ape Ghost Client</title>
+
+<link href="../assets/css/imports_new.css" rel="stylesheet">
+
+<link href="../../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.8.1/css/all.css" />
+
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+
+<link href="../../cdn.jsdelivr.net/npm/remixicon%402.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="navbar">
+<div class="overlay"></div>
+<div class="container">
+
+<nav class="navbar navbar-expand-xl navbar-dark">
+<a class="navbar-brand" style="color: white !important;" href="#"><img src="../assets/img/apelogo.png" alt="" style="width: 5.5rem;"><span onclick="window.location.href = '../index.html'" style="margin-left:1rem; font-weight: 600; font-size: 1rem;">Go back <i style="position: relative; top:.15rem; left: .3rem;" class="ri-arrow-go-back-line"></i></span></a>
+<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+<div class="d-lg-flex d-block">
+<a onclick="change_nav(3)" href="https://dsc.gg/vaperip" class="button nav-btn d-flex justify-content-center align-items-center mt-md-0 mt-2 mb-md-0 mb-2 ml-4"></i> Discord</a>
+</div>
+</div>
+</nav>
+</div>
+
+</header>
+
+<section id="features">
+<div class="overlay"></div>
+<div class="container">
+<div class="row text-center justify-content-center">
+<div class="col-12">
+<div class="text-top">
+<h1>Features</h1>
+<p>Check out the features that are included in the current version of Ape Client.</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<h2>Combat</h2>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>AimAssist</h3>
+<p>Help you aim towards your targets.</p>
+<span>Combat</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>AutoClicker</h3>
+<p>Highly customizable auto-clicker.</p>
+<span>Combat</span>
+
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Reach and Misplace</h3>
+<p>Extends attack reach.</p>
+<span>Combat</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Velocity</h3>
+<p>Reduce knockback taken.</p>
+<span>Combat</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>W-Tap</h3>
+<p>Reset your sprint perfectly.</p>
+<span>Combat</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Throwpot</h3>
+<p>Auto swaps throwable potions.</p>
+<span>Combat</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Refill</h3>
+<p>Automatically refills pots/soups</p>
+<span>Combat</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Sprint</h3>
+<p>Automatically Sprints for You.</p>
+<span>Combat</span>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+<div class="col-12">
+<h2>Render</h2>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Search</h3>
+<p>Renders name plates of entities through walls.</p>
+<span>Render</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>NameTags</h3>
+<p>Renders name plates of entities through walls.</p>
+<span>Render</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Tracers</h3>
+<p>Renders name plates of entities through walls.</p>
+<span>Render</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>FullBright</h3>
+<p>Removes Darkness.</p>
+<span>Render</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Esp</h3>
+<p>Renders a box around players.</p>
+<span>Render</span>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+<div class="col-12">
+<h2>Utility</h2>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>Scaffold</h3>
+<p>Assists with Bridging.</p>
+<span>Misc</span>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="box">
+<h3>ChestSteal</h3>
+<p>Takes items upon opening a chest.</p>
+<span>Misc</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="items d-flex">
+<div>
+<h5>Ape Ghost Client</h5>
+<p>Ape is a Downloadable Minecraft Client focused on having a wide variety of features and
+improving your gaming experience.</p>
+</div>
+</div>
+</div>
+<div class="col-md-8 text-right">
+<div class="items d-flex justify-content-md-end justify-content-start">
+<ul>
+</ul>
+<ul>
+<ul>
+<li><a href="https://dsc.gg/vaperip">Discord</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p class="text-center">Copyright 2015-2022 Ape. All rights reserved.</p>
+</footer>
+
+
+<script src="../assets/js/bootstrap.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    AOS.init({
+      disable: 'mobile',
+      once: true,
+    });
+  </script>
+<script>
+    function remove_hash() {
+      setTimeout(() => {
+        history.replaceState({}, document.title, ".");
+      }, 5);
+    }
+
+    var scroll = $(window).scrollTop();
+    if (scroll > 70) {
+      $("#navbar").addClass("active");
+    } else {
+      $("#navbar").removeClass("active");
+    }
+
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 70) {
+        $("#navbar").addClass("active");
+      } else {
+        $("#navbar").removeClass("active");
+      }
+    });
+  </script>
+</body>
+</html>
